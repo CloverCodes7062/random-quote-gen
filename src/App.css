@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  transition: background-color 0.8s ease;
+}
+
+.main-container {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(90vw, 500px);
+  background-color: #fdfdfd;
+  height: min(70vh, 500px);
+  border-radius: 10px;
+}
+
+.quote-container {
+  margin-top: 35%;
+  margin-bottom: auto;
+}
+
+#author {
+  text-align: right;
+}
+
+.next-quote-btn {
+  margin-bottom: 5%;
+}
+
+p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#quote {
+  text-align: center;
+  font-size: 24px;
+}
+
+.fa-quote-left, .fa-quote-right {
+  font-size: 28px;
+}
+
+span {
+  font-weight: 600;
+}
